@@ -223,11 +223,17 @@ header .contacts-link:hover,
 
 footer {
     padding-top: 60px;
+    padding-bottom: 60px;
 
    background: #2F303A;
    font-size: 14px;
    line-height: 1.14;
    color: var(--focus-color);
+}
+
+.box .logo{
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .footer-networks {
@@ -238,9 +244,7 @@ footer {
 .footer-box {
     display: flex;
     justify-content: space-between;
-
 }
-
 
 /*.footer-box .box {
     width: calc(100% / 4);
@@ -266,11 +270,6 @@ footer .button{
 }
 
 
-.box .logo{
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
 
 footer .contacts-item {
     font-size: 14px;
@@ -279,9 +278,6 @@ footer .contacts-item {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts:last-child {
-    margin-bottom: 60px;
-}
 
 footer .contacts-item:hover,
 .contacts-item:active,
@@ -308,4 +304,5 @@ footer>address {
 
 .sign {
     text-transform: uppercase;
+    
 }

@@ -329,10 +329,9 @@ h3 {
 
 
 footer {
-    display: flex;
-    padding-top: 60px;
 
-    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     background: #2F303A;
     font-size: 14px;
@@ -340,26 +339,22 @@ footer {
     color: var(--focus-color);
 }
 
+    .footer-networks {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
 .box .logo {
     display: inline-block;
     margin-bottom: 20px;
 }
 
-.contacts:last-child {
-    margin-bottom: 60px;
-}
 
-
-.footer-networks {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 .footer-box {
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -411,26 +406,6 @@ footer {
         color: var(--accent-color);
     }
 
-
-   
-   
-   
-   
-   
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
 
     footer>address {
         font-style: normal;
