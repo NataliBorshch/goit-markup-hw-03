@@ -220,19 +220,27 @@ header .contacts-link:hover,
 }
 
 /*футер*/
+
+footer {
+    padding-top: 60px;
+
+   background: #2F303A;
+   font-size: 14px;
+   line-height: 1.14;
+   color: var(--focus-color);
+}
+
 .footer-networks {
     display: flex;
-    flex-wrap: wrap;
 
 }
 
 .footer-box {
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
     justify-content: space-between;
 
 }
+
 
 /*.footer-box .box {
     width: calc(100% / 4);
@@ -240,40 +248,39 @@ header .contacts-link:hover,
 
 footer .button{
 
-   justify-content: center;
     border-radius: 4px;
-    border: 1px solid transparent;
+    justify-content: center;
     width: 200px;
     height: 50px;
-
-
+    align-items: center;
+    border: 1px solid transparent;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
     display: flex;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     color: var(--focus-color);
     background: var(--accent-color);
 
 }
 
-footer {
-    height: 252px;
-    padding: 60px 0;
 
-    background: #2F303A;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--focus-color);
+.box .logo{
+    display: inline-block;
+    margin-bottom: 20px;
 }
+
 
 footer .contacts-item {
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts:last-child {
+    margin-bottom: 60px;
 }
 
 footer .contacts-item:hover,
