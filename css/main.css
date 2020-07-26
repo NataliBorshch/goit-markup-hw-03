@@ -283,7 +283,10 @@ h3 {
 }
 
 .client .item {
-    width: calc((100% - 150px) / 6);}
+    width: calc((100% - 150px) / 6);
+
+}
+    
    /* border: 1px solid #AFB1B8;
     border-radius: 4px;
     align-content: center;
@@ -331,12 +334,13 @@ footer .logo {
     margin-bottom: 20px;
 }
 
-.footer-box .box {
-    width: calc(100% / 3);
-}
+
+
+
 .footer-networks {
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+}
 
 
 .footer-box {
@@ -378,6 +382,10 @@ footer .logo {
     }
 
     footer .button {
+
+        justify-content: center;
+        width: 200px;
+        height: 50px;
 
         border-radius: 4px;
         border: 1px solid transparent;
