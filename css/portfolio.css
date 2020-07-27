@@ -159,6 +159,7 @@ header .contacts-link:hover,
 .filter .button:active {
     background: var(--accent-color);
     color: var(--focus-color);
+    border: 1px solid transparent;
 }
 
 .work-list {
