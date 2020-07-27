@@ -31,7 +31,9 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     /*outline: 2px solid red;*/
@@ -39,6 +41,8 @@ body {
 
 .nav {
     border: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -51,7 +55,7 @@ body {
 .header-nav {
     display: flex;
     align-items: center;
-    height: 80px;
+
 }
 
 .site-nav {
@@ -70,8 +74,6 @@ body {
 
 .site-nav .link {
     display: block;
-    padding-bottom: 16px;
-    padding-top: 16px;
 
     font-weight: 500;
     font-size: 14px;
@@ -238,7 +240,6 @@ h3 {
 
 .page-tim {
     background: #F5F4FA;
-    height: 702px;
     padding-top: 94px;
     padding-bottom: 94px;
     /*background-color: salmon;*/
@@ -255,8 +256,6 @@ h3 {
     width: calc((100% - 90px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--focus-color);
-    /*width: 270px;
-    height: 422px;*/
 }
 
 .tim-item+.tim-item {
@@ -292,7 +291,7 @@ h3 {
 
 .client {
     display: flex;
-    height: 90px;
+
 }
 
 .client .item {
@@ -300,17 +299,11 @@ h3 {
 
 }
     
-   /* border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    align-content: center;
-    width: 170px;
-    margin-bottom: 96px;
 
-
-*/
 .our-client{
-    padding: 94px 0px;
-    /*background-color: rosybrown;*/
+    padding-top: 85px;
+    padding-bottom: 103px;
+   /* background-color: rosybrown;*/
     
 }
 
@@ -351,8 +344,6 @@ footer {
 }
 
 
-
-
 .footer-box {
     display: flex;
     justify-content: space-between;
@@ -360,6 +351,7 @@ footer {
 
 
   footer .button {
+    display: flex;
     border-radius: 4px;
     justify-content: center;
     width: 200px;
@@ -371,13 +363,12 @@ footer {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
-    display: flex;
+    
 
     letter-spacing: 0.06em;
     color: var(--focus-color);
     background: var(--accent-color);
 }
-
 
 
     footer .contacts-item {
