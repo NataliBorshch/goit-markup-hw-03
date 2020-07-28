@@ -347,10 +347,13 @@ footer {
 .footer-box {
     display: flex;
     justify-content: space-between;
+
+   
 }
 
 
   footer .button {
+
     display: flex;
     border-radius: 4px;
     justify-content: center;
